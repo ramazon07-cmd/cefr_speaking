@@ -12,7 +12,13 @@ const examParts = [
           "What is your name?",
           "Where are you from?",
           "Do you work or study?",
-          "What time do you wake up?"
+          "What time do you wake up?",
+          "What do you do in your free time?",
+          "Do you have any pets?",
+          "What is your favorite color?",
+          "What do you usually have for lunch?",
+          "Where do you live?",
+          "Do you like the place where you live?"
         ]
       },
       {
@@ -23,7 +29,13 @@ const examParts = [
           "Describe your family.",
           "Talk about your home.",
           "Describe your daily routine.",
-          "Talk about your favorite food."
+          "Talk about your favorite food.",
+          "Describe your hometown.",
+          "Talk about a memorable event in your life.",
+          "Talk about your best friend.",
+          "Describe your favorite holiday.",
+          "Describe a place you like to visit.",
+          "Talk about your favorite season."
         ]
       },
       {
@@ -34,7 +46,13 @@ const examParts = [
           "Do you like spending time with your family?",
           "What do you eat for breakfast?",
           "What time do you go to bed?",
-          "Do you like cooking?"
+          "Do you like cooking?",
+          "How often do you visit your hometown?",
+          "What is your favorite time of day?",
+          "Do you like your job or studies?",
+          "How do you spend your weekends?",
+          "What is your favorite food to cook?",
+          "How do you usually celebrate holidays?"
         ]
       }
     ]
@@ -52,7 +70,13 @@ const examParts = [
           "What do you usually do on weekends?",
           "Tell me about your friends.",
           "What kind of food do you like?",
-          "Do you prefer summer or winter?"
+          "Do you prefer summer or winter?",
+          "How do you usually spend your evenings?",
+          "What kind of music do you listen to?",
+          "Do you like going to the cinema?",
+          "What kind of sports do you enjoy?",
+          "Do you have a favorite type of weather?",
+          "What is your favorite place to go shopping?"
         ]
       },
       {
@@ -63,7 +87,13 @@ const examParts = [
           "Describe your best friend.",
           "Talk about your favorite hobby.",
           "Describe your neighborhood.",
-          "Talk about a typical day in your life."
+          "Talk about a typical day in your life.",
+          "Describe your favorite restaurant.",
+          "Talk about your favorite vacation.",
+          "Describe your school or workplace.",
+          "Talk about your family members.",
+          "Describe a typical meal you have.",
+          "Talk about your favorite childhood memory."
         ]
       },
       {
@@ -74,7 +104,13 @@ const examParts = [
           "Why do you like this hobby?",
           "How often do you do this activity?",
           "Would you recommend this to others?",
-          "What other activities do you enjoy?"
+          "What other activities do you enjoy?",
+          "How do you spend your free time?",
+          "Why do you like your neighborhood?",
+          "What is your favorite thing about your school/workplace?",
+          "How do you relax after work or school?",
+          "Why do you think people enjoy shopping?",
+          "How often do you meet your friends?"
         ]
       }
     ]
@@ -92,7 +128,13 @@ const examParts = [
           "What kind of movies do you enjoy and why?",
           "Tell me about your last vacation.",
           "What do you like about your job/studies?",
-          "How do you prefer to learn new things?"
+          "How do you prefer to learn new things?",
+          "What do you usually do during holidays?",
+          "Tell me about your favorite book.",
+          "What is your favorite place to travel to?",
+          "How do you usually prepare for exams?",
+          "Do you prefer online or offline classes?",
+          "What is your favorite season and why?"
         ]
       },
       {
@@ -103,7 +145,13 @@ const examParts = [
           "Describe a memorable journey you have taken.",
           "Talk about an interesting person you know.",
           "Describe a place you like to visit.",
-          "Talk about a skill you would like to learn."
+          "Talk about a skill you would like to learn.",
+          "Describe your favorite hobby.",
+          "Talk about a time you faced a challenge.",
+          "Describe a significant event in your life.",
+          "Talk about a country you would like to visit.",
+          "Describe a tradition in your culture.",
+          "Talk about an important decision you made."
         ]
       },
       {
@@ -114,7 +162,13 @@ const examParts = [
           "Why do people enjoy traveling?",
           "What makes someone interesting?",
           "How do people choose their hobbies?",
-          "What's the best way to learn new skills?"
+          "What's the best way to learn new skills?",
+          "Why do people like to try new food?",
+          "How can technology improve education?",
+          "What makes a city a good place to live?",
+          "Why do people like to share their experiences?",
+          "How do hobbies impact our personal development?",
+          "Why do people value family?"
         ]
       }
     ]
@@ -134,7 +188,11 @@ const examParts = [
           "How do you think work will change in the future?",
           "What environmental issues concern you most?",
           "Can you tell me about a book or movie that left a lasting impression on you?",
-          "How do you usually spend your weekends?"
+          "How do you usually spend your weekends?",
+          "What is the biggest issue facing your country today?",
+          "What are the most important qualities for success?",
+          "How can we improve the public transportation system?",
+          "What are your thoughts on climate change?"
         ]
       },
       {
@@ -147,7 +205,11 @@ const examParts = [
           "Describe a technological innovation.",
           "Talk about a social issue you care about.",
           "Talk about a place you’ve visited that you found interesting.",
-          "Talk about a goal you want to achieve in the next five years."
+          "Talk about a goal you want to achieve in the next five years.",
+          "Describe the impact of social media on communication.",
+          "Talk about a challenge you overcame.",
+          "Describe a cultural tradition that is important to you.",
+          "Talk about a skill that can improve your career."
         ]
       },
       {
@@ -160,7 +222,11 @@ const examParts = [
           "How can society address environmental challenges?",
           "What factors influence career choices today?",
           "What are the benefits and drawbacks of living in a fast-paced world?",
-          "Do you think it’s important to have hobbies? Why or why not?"
+          "Do you think it’s important to have hobbies? Why or why not?",
+          "How can we reduce social inequality?",
+          "What impact does globalization have on local cultures?",
+          "What are the challenges of living in a big city?",
+          "How can people balance work and personal life?"
         ]
       }
     ]
@@ -178,7 +244,13 @@ const examParts = [
           "How has globalization affected your field of work?",
           "What cultural changes have you observed in your lifetime?",
           "How do economic policies impact daily life?",
-          "What role should technology play in education?"
+          "What role should technology play in education?",
+          "How do political systems impact global relations?",
+          "What are the advantages of remote working?",
+          "How can different cultures contribute to a global economy?",
+          "How can technology bridge cultural gaps?",
+          "How can education systems evolve in the future?",
+          "How do you think work-life balance has changed over the years?"
         ]
       },
       {
@@ -189,7 +261,13 @@ const examParts = [
           "Analyze a major change in your professional field.",
           "Discuss the impact of a significant historical event.",
           "Evaluate the role of media in modern society.",
-          "Examine the future of urban development."
+          "Examine the future of urban development.",
+          "Analyze the impact of social media on youth culture.",
+          "Discuss the benefits and challenges of artificial intelligence.",
+          "Examine the relationship between culture and technology.",
+          "Evaluate the role of government in healthcare reform.",
+          "Discuss the future of work in an increasingly automated world.",
+          "Analyze the effects of climate change on global food production."
         ]
       },
       {
@@ -200,7 +278,13 @@ const examParts = [
           "How do societal values influence development?",
           "What factors drive technological innovation?",
           "How can communities balance growth and sustainability?",
-          "What role should government play in social change?"
+          "What role should government play in social change?",
+          "How does education impact social equality?",
+          "What challenges do we face in implementing green technologies?",
+          "How can we ensure that economic growth benefits everyone?",
+          "What is the role of ethics in artificial intelligence?",
+          "How does public policy influence cultural trends?",
+          "How can we prepare future generations for emerging global challenges?"
         ]
       }
     ]
@@ -218,7 +302,13 @@ const examParts = [
           "How do paradigm shifts occur in your field?",
           "What philosophical principles guide your work?",
           "How do you evaluate competing theoretical frameworks?",
-          "What methodological approaches do you prefer?"
+          "What methodological approaches do you prefer?",
+          "What are the main ethical challenges in your profession?",
+          "How do you see the future of your industry?",
+          "How do different schools of thought shape your field?",
+          "What is the impact of interdisciplinary collaboration?",
+          "How does your field address global issues?",
+          "What role does critical thinking play in your profession?"
         ]
       },
       {
@@ -229,7 +319,13 @@ const examParts = [
           "Analyze the intersection of technology and ethics.",
           "Evaluate a significant development in your field.",
           "Examine the future of global governance.",
-          "Discuss the evolution of social institutions."
+          "Discuss the evolution of social institutions.",
+          "Analyze the role of innovation in business strategy.",
+          "Evaluate the impact of artificial intelligence on decision-making.",
+          "Examine the relationship between culture and leadership.",
+          "Discuss the challenges of managing global teams.",
+          "Analyze the effects of globalization on local economies.",
+          "Examine the role of education in fostering leadership skills."
         ]
       },
       {
@@ -240,7 +336,13 @@ const examParts = [
           "How do theoretical frameworks shape understanding?",
           "What paradigms influence policy development?",
           "How do systems adapt to complex change?",
-          "What role do institutions play in social evolution?"
+          "What role do institutions play in social evolution?",
+          "How do different economic models impact global trade?",
+          "What is the role of the state in addressing inequality?",
+          "How do theoretical approaches inform public policy?",
+          "How do global institutions shape international law?",
+          "What impact do cultural norms have on leadership styles?",
+          "How does education impact social mobility?"
         ]
       }
     ]
