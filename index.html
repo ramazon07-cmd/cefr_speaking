@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CEFR Speaking Practice</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="min-h-screen">
+    <header>
+      <div class="header-content">
+        <div class="logo">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mic-icon">
+            <path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"></path>
+            <path d="M19 10v2a7 7 0 0 1-14 0v-2"></path>
+            <line x1="12" x2="12" y1="19" y2="22"></line>
+          </svg>
+          <h1>CEFR Speaking Practice</h1>
+        </div>
+        <div class="timer">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"></circle>
+            <polyline points="12 6 12 12 16 14"></polyline>
+          </svg>
+          <span id="timer">0:00</span>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="grid">
+        <div class="sidebar">
+          <div class="card">
+            <h2>CEFR Levels</h2>
+            <nav id="parts-nav"></nav>
+          </div>
+          <div class="card">
+            <h2>Speaking Parts</h2>
+            <nav id="sub-parts-nav"></nav>
+          </div>
+        </div>
+
+        <div class="content">
+          <div class="card">
+            <div class="part-info">
+              <h2 id="part-title"></h2>
+              <p id="part-description"></p>
+            </div>
+
+            <div class="question-box">
+              <div class="question-header">
+                <h3>Practice Question</h3>
+                <button id="next-question" class="icon-button">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38"/>
+                  </svg>
+                </button>
+              </div>
+              <p id="current-question"></p>
+            </div>
+
+            <div class="controls">
+              <div class="button-group">
+                <button id="toggle-timer" class="button">
+                  <svg id="play-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polygon points="10 8 16 12 10 16 10 8"></polygon>
+                  </svg>
+                  <span id="timer-text">Start</span>
+                </button>
+                <button id="reset-timer" class="button secondary">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38"/>
+                  </svg>
+                  <span>Reset</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Asking My Speaking Answer</h3>
+            <div class="answer-section">
+              <p>Record your answer to the question and play it back to review:</p>
+              <div class="controls">
+                <button id="start-recording" class="button">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polygon points="10 8 16 12 10 16 10 8"></polygon>
+                  </svg>
+                  Start Recording
+                </button>
+                <button id="stop-recording" class="button secondary" disabled>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                  </svg>
+                  Stop Recording
+                </button>
+                <button id="play-recording" class="button" disabled>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                  </svg>
+                  Play Recording
+                </button>
+              </div>
+              <br>
+              <audio id="audio-player" controls style="display: none;"></audio>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
